@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Welcome
+	Login Here
     <form method="post" action="index.jsp">
     	<div>
     		Username :<input type="text" name="uname"/>
