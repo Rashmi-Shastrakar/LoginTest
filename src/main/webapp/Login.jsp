@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <div>
-    	Username :<input type="text" name="uname"/>
-    	Password :<input type="password" name="password"/>
-    </div>
+    <form method="post" action="index.jsp">
+    	<div>
+    		Username :<input type="text" name="uname"/>
+    		Password :<input type="password" name="password"/>
+		<input type="submit" value="login">
+    	</div>
+    </form>
 </body>
 </html>
