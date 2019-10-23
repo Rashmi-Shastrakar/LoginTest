@@ -15,5 +15,6 @@
 		<input type="submit" value="login">
     	</div>
     </form>
+	<a href="index.jsp">Back</a>
 </body>
 </html>
