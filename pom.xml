@@ -61,12 +61,12 @@
     <repository>
          <id>central</id>
          <name>nexus_jenkins</name>
-         <url>http://localhost:8081/repository/repositories/nexus_jenkins</url>
+         <url>http://localhost:8081/repository/nexus_jenkins</url>
     </repository>
     <snapshotRepository>
          <id>central</id>
          <name>nexus_jenkins</name>
-         <url>http://localhost:8081/repository/repositories/nexus_jenkins</url>
+         <url>http://localhost:8081/repository/nexus_jenkins</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
