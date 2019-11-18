@@ -57,7 +57,7 @@
     </plugins>
   </build>
 	
-<!--  <distributionManagement>
+   <distributionManagement>
     <repository>
          <id>central</id>
          <name>nexus_jenkins_pipeline</name>
@@ -68,5 +68,5 @@
          <name>nexus_jenkins_pipeline</name>
          <url>http://localhost:8081/repository/nexus_jenkins_pipeline</url>
     </snapshotRepository>
-</distributionManagement> -->
+</distributionManagement>
 </project>
