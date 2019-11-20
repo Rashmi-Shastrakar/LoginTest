@@ -75,13 +75,13 @@
    <distributionManagement>
     <repository>
          <id>central</id>
-         <name>test1</name>
-         <url>http://localhost:8081/repository/test1</url>
+         <name>nexus_jenkins_pipeline</name>
+         <url>http://localhost:8081/repository/nexus_jenkins_pipeline</url>
     </repository>
     <snapshotRepository>
          <id>central</id>
-         <name>test1</name>
-         <url>http://localhost:8081/repository/test1</url>
+         <name>nexus_jenkins_pipeline</name>
+         <url>http://localhost:8081/repository/nexus_jenkins_pipeline</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
