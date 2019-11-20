@@ -4,7 +4,7 @@
   <groupId>com.LoginTest</groupId>
   <artifactId>LoginSys</artifactId>
   <packaging>war</packaging>
-  <version>1</version>
+  <version>${BUILD_NUMBER}</version>
   <name>LoginSys Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
