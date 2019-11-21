@@ -76,7 +76,7 @@
     <repositories>
     <repository>
       <id>maven-group</id>
-      <url>hhttp://localhost:8081/repository/jenkins_group/</url>
+      <url>http://localhost:8081/repository/jenkins_group/</url>
     </repository>
     <repository>
          <id>jenkins_release</id>
