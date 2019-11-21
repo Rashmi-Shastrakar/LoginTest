@@ -82,11 +82,11 @@
 	
 	
   <distributionManagement>
-    <repository>
+<!--    <repository>
          <id>jenkins_release</id>
          <name>jenkins_release</name>
          <url>http://localhost:8081/repository/jenkins_release</url>
-    </repository>
+    </repository> -->
     <snapshotRepository>
          <id>jenkis_snapshot</id>
          <name>jenkis_snapshot</name>
