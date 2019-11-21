@@ -73,10 +73,38 @@
   </build>
  <repositories>
     <repository>
-      <id>maven-group</id>
+      <id>jenkins-group</id>
       <url>http://localhost:8081/repository/jenkins_group/</url>
     </repository>
+	 
+	 <repository>
+          <id>jenkins-releases</id>
+          <url>http://localhost:8081/repository/jenkins_release</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+	 
+	 <repository>
+          <id>jenkins-snapshot</id>
+          <url>http://localhost:8081/repository/jenkins_snapshot</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+	 
   </repositories>	
+	
+	
+	
   <distributionManagement>
     <repository>
          <id>jenkins_release</id>
